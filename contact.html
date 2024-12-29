@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ბლოგი IT სფეროში: რჩევები, სახელმძღვანელოები, ტექნიკური სტატიის შესახებ.">
+    <title>ბლოგი</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">მთავარი</a></li>
+                <li><a href="services.html">მომსახურებები</a></li>
+                <li><a href="blog.html">ბლოგი</a></li>
+                <li><a href="contact.html">კონტაქტი</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact">
+            <h2>დაგვიკავშირდით</h2>
+            <div class="contact-container">
+                <div class="contact-details">
+                    <h3>ჩვენი კონტაქტები</h3>
+                    <p><strong>ტელეფონი:</strong> +995 599 123 456</p>
+                    <p><strong>ელ.ფოსტა:</strong> example@yourbusiness.ge</p>
+                    <p><strong>მისამართი:</strong> ჭიათურა, საქართველო</p>
+                </div>
+                <div class="contact-form">
+                    <h3>მოგვწერეთ</h3>
+                    <form action="#" method="POST">
+                        <label for="name">სახელი:</label>
+                        <input type="text" id="name" name="name" placeholder="შეიყვანეთ თქვენი სახელი" required>
+                        
+                        <label for="email">ელ.ფოსტა:</label>
+                        <input type="email" id="email" name="email" placeholder="შეიყვანეთ თქვენი ელ.ფოსტა" required>
+                        
+                        <label for="message">შეტყობინება:</label>
+                        <textarea id="message" name="message" placeholder="დაწერეთ თქვენი შეტყობინება" rows="5" required></textarea>
+                        
+                        <button type="submit" class="cta-button">გაგზავნა</button>
+                    </form>
+                </div>
+                <div class="contact-map">
+                    <h3>ჩვენი მდებარეობა</h3>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434507219!2d-122.41941508468107!3d37.77492957975966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064f51d9d3b%3A0xe3b0c441197f5b33!2zVGVzdCBMb2NhdGlvbg!5e0!3m2!1sen!2sge!4v1698869181238!5m2!1sen!2sge" 
+                        width="100%" 
+                        height="300" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 შენი IT ბიზნესის საიტი. ყველა უფლება დაცულია.</p>
+    </footer>
+</body>
+</html>
